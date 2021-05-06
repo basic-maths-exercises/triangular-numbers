@@ -1,1 +1,30 @@
-# triangular-numbers
+# Calculating the triangular numbers
+
+In the programming exercises that we have completed thus far we have used python to calculate series where the nth element of the series is some function of n.  For example, the nth element of the seven times table (a series) is just 7 multiplied by n.  This is not the only way of explaining how the elements in a series are calculated.  The elements in the series of triangular numbers can, for instance be defined as follows:
+
+![](https://render.githubusercontent.com/render/math?math=a_0=0\qquad\textrm{and}\quad\a_n=a_{n-1}%2Bn)
+
+In other words, the zeroth element in this series is zero. All elements with n>0 can then be calculated by adding n to to the previous element in the series.  The first few terms in this series are thus:
+
+![](https://render.githubusercontent.com/render/math?math=a_0=0\quad\a_1=0+1=1\quad\a_2=1+2=3\quad\a_3=3+3=6\quad\a_4=6+4=10)
+
+__To complete this exercise I would like you to create an array called `traingularNumbers.`  This array needs to have 100 elements and should contain the first 100 triangular numbers.__  
+
+***
+
+Note: If you write:
+
+````
+for i in range(1,4) : 
+    print(i) 
+````
+
+This code will output:
+
+````
+1
+2
+3
+````
+
+as the loop runs for all the integers, i, that have 0<i<4. 
