@@ -6,7 +6,7 @@ In the programming exercises that we have completed thus far we have used python
 
 In other words, the zeroth element in this series is zero. All elements with n>0 can then be calculated by adding n to to the previous element in the series.  The first few terms in this series are thus:
 
-![](https://render.githubusercontent.com/render/math?math=a_0=0\quad\a_1=0%2B1=1\quad\a_2=1%2B2=3\quad\a_3=3+3=6\quad\a_4=6%2B4=10)
+![](https://render.githubusercontent.com/render/math?math=a_0=0\quad\a_1=0%2B1=1\quad\a_2=1%2B2=3\quad\a_3=3%2B3=6\quad\a_4=6%2B4=10)
 
 __To complete this exercise I would like you to create an array called `traingularNumbers.`  This array needs to have 100 elements and should contain the first 100 triangular numbers.__  
 
