@@ -20,17 +20,17 @@ __To complete this exercise I would like you to complete the code in `main.py` s
 
 Note: If you write:
 
-````
+```python
 for i in range(1,4) : 
     print(i) 
-````
+```
 
 This code will output:
 
-````
+```python
 1
 2
 3
-````
+```
 
 as the loop runs for all the integers, i, that have 0<i<4. 
