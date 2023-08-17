@@ -2,15 +2,11 @@
 
 In the programming exercises that we have completed thus far we have used python to calculate series where the nth element of the series is some function of n.  For example, the nth element of the seven times table (a series) is just 7 multiplied by n.  This is not the only way of explaining how the elements in a series are calculated.  The elements in the series of triangular numbers can, for instance be defined as follows:
 
-$$
-a_0=0\qquad\textrm{and}\quad a_n=a_{n-1}+n
-$$
+![](eq1.png)
 
 In other words, the zeroth element in this series is zero. All elements with n>0 can then be calculated by adding n to to the previous element in the series.  The first few terms in this series are thus:
 
-$$
-a_0=0\quad a_1=0+1=1\quad a_2=1+2=3\quad a_3=3+3=6\quad a_4=6+4=10
-$$
+![](eq2.png)
 
 __To complete this exercise I would like you to complete the code in `main.py` so that it does the following__:
 
